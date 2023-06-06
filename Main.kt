@@ -1,14 +1,5 @@
 fun main(args: Array<String>) {
 
-    val personList = listOf(
-        Person("Ben", 37, true),
-        Person("Martin", 5, true),
-        Person("Haggard", 39, false),
-        Person("Angel", 25, false),
-        Person("David", 66, true)
-    )
-
-
     val names = listOf("dog","cat")
     println(names.mapIndexed(::Animal))
     println(names.mapIndexed{ id, name ->
