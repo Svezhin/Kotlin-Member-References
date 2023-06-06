@@ -7,26 +7,7 @@ fun main(args: Array<String>) {
         Person("Angel", 25, false),
         Person("David", 66, true)
     )
-//
-//    personList.filter {
-//        it.male
-//    }.forEach{
-//        println(it.name)
-//    }
-//
-//    personList.filter {
-//        !it.male
-//    }.forEach{
-//        println(it.name)
-//    }
-//
 
-//    personList.filter(Person::male).forEach { println(it.name) } // Filter just male
-//    personList.sortedBy(Person::name).forEach { println(it.name) } // Sort names as Alphabetical
-//    personList.sortedByDescending(Person::name).forEach { println(it.name) } // Sort names as Alphabetical Reversed
-//
-//    println(personList.any(Person::important))
-//    println(personList.any(::important2))
 
     val names = listOf("dog","cat")
     println(names.mapIndexed(::Animal))
