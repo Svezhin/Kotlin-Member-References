@@ -82,7 +82,3 @@ fun Animal.updateColor(color: String) {
     this.color = color
 
 }
-
-
-//open class Parent
-//class Child:Parent()
